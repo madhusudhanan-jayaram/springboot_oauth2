@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: mySecretKey123456789012345678901234567890
+    access-mins: 15
+    refresh-days: 7
+
+logging:
+  level:
+    com.example.demooauth2headers: DEBUG
+    org.springframework.security: DEBUG
